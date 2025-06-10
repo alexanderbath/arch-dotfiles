@@ -39,6 +39,9 @@ vim.keymap.set('n', '<leader>ld', ':ObsidianDailies<cr>')
 -- Syntax highlighting inside markdown code blocks.
 vim.g.markdown_fenced_languages = {'html', 'css', 'python', 'c', 'go', 'sql'}
 
+-- Splits
+vim.keymap.set('n', '<leader>v', ':vsplit<cr>')
+
 -- Telescope bindings.
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
