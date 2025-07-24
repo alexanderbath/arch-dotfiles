@@ -141,7 +141,7 @@ require("mason").setup()
 require("mason-lspconfig").setup()
 
 -- Obsidian config
-vim.wo.conceallevel = 1
+vim.wo.conceallevel = 2
 require('obsidian').setup {
 	workspaces = {
 		{
