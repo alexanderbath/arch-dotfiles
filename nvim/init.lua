@@ -57,6 +57,11 @@ require('telescope').setup{
   }
 }
 
+-- Get word count
+local function getWords()
+	return tostring(vim.fn.wordcount().words).." Words"
+end
+
 -- Lualine
 require('lualine').setup {
   options = {
@@ -84,7 +89,7 @@ require('lualine').setup {
     lualine_c = {'filename'},
     lualine_x = {'encoding', 'fileformat', 'filetype'},
     lualine_y = {'progress'},
-    lualine_z = {'location'}
+    lualine_z = {getWords, 'location'}
   },
   inactive_sections = {
     lualine_a = {},
