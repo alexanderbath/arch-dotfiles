@@ -27,7 +27,7 @@
 	  "interval": 10 
   },
   "temperature": {
-	"hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+	"hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
     "critical-threshold": 82, // takes unit: Celsius
     "format": "<span foreground='#ffffff'>{temperatureC}°C</span> ", // optionally, temperatureC
     "interval": 1, // seconds between module updates
