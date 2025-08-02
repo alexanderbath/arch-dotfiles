@@ -23,7 +23,7 @@
       "on-click": "pavucontrol"
   },
   "memory": { 
-	  "format": "<span foreground='#ffffff' size='13000'>\uf0c9  {used}GB/{total}GB</span>", 
+	  "format": "<span foreground='#ffffff' size='13000'>\uf0c9  {used}GB/92GB</span>", 
 	  "interval": 10 
   },
   "temperature": {
