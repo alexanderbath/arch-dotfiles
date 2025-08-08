@@ -31,6 +31,9 @@ vim.keymap.set('n', 'L', '8l')
 vim.keymap.set('n', 'J', '8j')
 vim.keymap.set('n', 'K', '8k')
 
+-- Goto last open file
+vim.keymap.set('n', '<leader>gb', ':bp<cr>')
+
 -- Obsidian bindings
 vim.keymap.set('n', '<leader>n', ':ObsidianNew<cr>')
 vim.keymap.set('n', '<leader>d', ':ObsidianToday<cr>')
