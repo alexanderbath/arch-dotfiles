@@ -1,7 +1,7 @@
 require("config.lazy")
 
 -- Colourscheme
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "tokyonight-moon"
 
 -- Spellcheck for markdown files
 vim.api.nvim_create_autocmd("FileType", {
